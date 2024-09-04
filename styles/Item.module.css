@@ -1,0 +1,22 @@
+.containers{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+    margin: 0px auto;
+    width: 1200px;
+    gap: 1.875rem;
+    padding: 2rem;
+
+}
+
+.card{
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    transition: all .3s ease;
+}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

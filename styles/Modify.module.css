@@ -1,0 +1,25 @@
+.containerHeight{
+    min-height: 87vh;
+}
+
+.contain{
+    padding: 1.8rem;
+      border-bottom: 1px solid orange;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+
+    .buttons{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .buttons >button{
+        background: orange;
+        padding: 0.6rem 2rem;
+        color: white;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
